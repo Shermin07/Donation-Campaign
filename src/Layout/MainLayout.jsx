@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
-import Navber from "../Components/Header/Navber/Navber";
+
+import Header from "../Components/Header/Header";
 
 
 const MainLayout = () => {
     return (
-        <div>
-            <Navber></Navber>
+        <div className="mx-w-screen-xl max-auto mx-8 mt-2">
+           <Header></Header>
            <div>
             <Outlet></Outlet>
             </div> 
