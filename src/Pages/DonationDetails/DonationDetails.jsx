@@ -5,23 +5,24 @@ import DetailsCard from "../../Components/DetailsCard/DetailsCard";
 
 
 const DonationDetails = () => {
-
+const [card, setCard] = useState({}) ;
     
-    const [card, setCard] = useState({})
+    
 
-   const {Id} = useParams() 
-   const cards = useLoaderData()
+   const {Id} = useParams() ;
+   const cards = useLoaderData() ;
    
     console.log(cards);
     useEffect(() =>{
         const findDetails = cards?.find(card => card.Id === Id)
-        setCard(findDetails) ;
+        setCard(findDetails) 
     }
         ,[Id, cards])
+   
 
     
     return (
-        <div >
+        <div>
              <DetailsCard card = {card}></DetailsCard>
         </div>
     );
