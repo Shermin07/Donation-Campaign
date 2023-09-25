@@ -8,7 +8,7 @@ const Header = () => {
            <div className="flex  justify-between  items-center   ">
         <Logo></Logo>
            <nav className=" ">
-            <ul className="flex   gap-4 ">
+            <ul className="md:flex   gap-4 ">
            
                 <li>
                 <NavLink 

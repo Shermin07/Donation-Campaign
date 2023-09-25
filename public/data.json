@@ -4,16 +4,18 @@
       "Image": "/public/Resources/Health.png",
       "Title": "Healthy Lifestyle ",
       "Category_name": {
-        "text": "Health",
-        "textColor": "#333"
+        "text": "Health"
+        
       },
       "Description": {
         "text": "Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.",
-        "textColor": "#666"
+        "text_Color": "#666"
       },
       "Price": "$19.99",
-      "bgCategory": "#FFDDC1",
-      "bgBackground": "#FF5733"
+      "bg_Category": "#ef4444",
+      "bg_Background": "#fee2e2",
+      "text_Color": "#f87171",
+      "Title_Color" : "#f87171"
     },
 
     {
@@ -21,64 +23,73 @@
       "Image": "/public/Resources/Education.png",
       "Title": "Educational Books ",
       "Category_name": {
-        "text": "Education",
-        "textColor": "#333"
+        "text": "Education"
+       
       },
       "Description": {
         "text": "Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.",
-        "textColor": "#666"
+        "text_Color": "#666"
       },
       "Price": "$29.99",
-      "bgCategory": "#C1DFFF",
-      "bgBackground": "#4286f4"
+      "bg_Category": "#C1DFFF",
+      "bg_Background": " #ccfbf1",
+      "text_Color": "#0d9488",
+      "Title_Color": "#0d9488"
     },
     {
       "Id": "3",
       "Image": "/public/Resources/Clothing.png",
       "Title": "Stylish Clothing ",
       "Category_name": {
-        "text": "Clothing",
-        "textColor": "#333"
+        "text": "Clothing"
+        
+
       },
       "Description": {
         "text": "Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.",
-        "textColor": "#666"
+        "text_Color": "#666"
       },
       "Price": "$49.99",
-      "bgCategory": "#FFE7C1",
-      "bgBackground": "#FFC300"
+      "bg_Category": "#FFE7C1",
+      "bg_Background": " #fef9c3",
+      "text_Color": " #ca8a04",
+      "Title_Color": "#ca8a04"
     },
     {
       "Id": "4",
       "Image": "/public/Resources/Food.png",
       "Title": "Delicious Cuisine ",
       "Category_name": {
-        "text": "Food",
-        "textColor": "#333"
+        "text": "Food"
+       
       },
       "Description": {
         "text": "Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.",
-        "textColor": "#666"
+        "text_Color": "#666"
       },
       "Price": "$9.99",
-      "bgCategory": "#D0FFC1",
-      "bgBackground": "#5EFF33"
+      "bg_Category": "#D0FFC1",
+      "bg_Background": "#f3e8ff",
+      "text_Color": "#9333ea",
+      "Title_Color":"#9333ea"
     },
     {
         "Id": "5",
         "Image": "/public/Resources/Health.png",
         "Title": "Healthy Lifestyle ",
         "Category_name": {
-          "text": "Health",
-          "textColor": "#333"
+          "text": "Health"
+         
         },
         "Description": {
           "text": "Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.",
-          "textColor": "#666"
+          "text_Color": "#991b1b"
         },
         "Price": "$19.99",
-        "bgCategory": "#FFDDC1",
-        "bgBackground": "#FF5733"
+        "bg_Category": "#ef4444",
+        "bg_Background": "#fee2e2",
+        "text_Color": "#f87171",
+      "Title_Color" : "#f87171"
       },
       {
         "Id": "6",
@@ -86,31 +97,35 @@
         "Title": "Educational Books ",
         "Category_name": {
           "text": "Education",
-          "textColor": "#333"
+          "text_Color": "#333"
         },
         "Description": {
           "text": "Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$29.99",
         "bgCategory": "#C1DFFF",
-        "bgBackground": "#4286f4"
+        "bg_Background": " #ccfbf1",
+        "text_Color": "#0d9488",
+        "Title_Color": "#0d9488"
       },
       {
         "Id": "7",
         "Image": "/public/Resources/Clothing.png",
         "Title": "Stylish Clothing ",
         "Category_name": {
-          "text": "Clothing",
-          "textColor": "#333"
+          "text": "Clothing"
+          
         },
         "Description": {
           "text": "Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$49.99",
-        "bgCategory": "#FFE7C1",
-        "bgBackground": "#FFC300"
+        "bg_Category": "#FFE7C1",
+        "bg_Background": "#fef9c3",
+        "text_Color": " #ca8a04",
+      "Title_Color": "#ca8a04"
       },
       {
         "Id": "8",
@@ -118,31 +133,35 @@
         "Title": "Delicious Cuisine ",
         "Category_name": {
           "text": "Food",
-          "textColor": "#333"
+          "text_Color": "#333"
         },
         "Description": {
           "text": "Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$9.99",
-        "bgCategory": "#D0FFC1",
-        "bgBackground": "#5EFF33"
+        "bg_Category": "#D0FFC1",
+        "bg_Background": "#f3e8ff",
+        "text_Color": "#9333ea",
+        "Title_Color":"#9333ea"
       },
       {
         "Id": "9",
         "Image": "/public/Resources/Health.png",
         "Title": "Healthy Lifestyle ",
         "Category_name": {
-          "text": "Health",
-          "textColor": "#333"
+          "text": "Health"
+         
         },
         "Description": {
           "text": "Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.Promote well-being with our health products.",
-          "textColor": "#666"
+          "text_Color": "#ef4444"
         },
         "Price": "$19.99",
-        "bgCategory": "#FFDDC1",
-        "bgBackground": "#FF5733"
+        "bg_Category": "#ef4444",
+      "bg_Background": "#fee2e2",
+      "text_Color": "#f87171",
+      "Title_Color" : "#f87171"
       },
       {
         "Id": "10",
@@ -150,15 +169,17 @@
         "Title": "Educational Books ",
         "Category_name": {
           "text": "Education",
-          "textColor": "#333"
+          "text_Color": "#333"
         },
         "Description": {
           "text": "Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.Expand your knowledge with our educational books.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$29.99",
-        "bgCategory": "#C1DFFF",
-        "bgBackground": "#4286f4"
+        "bg_Category": "#C1DFFF",
+        "bg_Background": " #ccfbf1",
+      "text_Color": "#0d9488",
+      "Title_Color": "#0d9488"
       },
       {
         "Id": "11",
@@ -166,31 +187,35 @@
         "Title": "Stylish Clothing ",
         "Category_name": {
           "text": "Clothing",
-          "textColor": "#333"
+          "text_Color": "#333"
         },
         "Description": {
           "text": "Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.Stay fashionable with our clothing collection.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$49.99",
-        "bgCategory": "#FFE7C1",
-        "bgBackground": "#FFC300"
+        "bg_Category": "#FFE7C1",
+        "bg_Background": "#fef9c3",
+        "text_Color": " #ca8a04",
+      "Title_Color": "#ca8a04"
       },
       {
         "Id": "12",
         "Image": "/public/Resources/Food.png",
         "Title": "Delicious Cuisine ",
         "Category_name": {
-          "text": "Food",
-          "textColor": "#333"
+          "text": "Food"
+         
         },
         "Description": {
           "text": "Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.Savor the flavors of our gourmet food items.",
-          "textColor": "#666"
+          "text_Color": "#666"
         },
         "Price": "$9.99",
-        "bgCategory": "#D0FFC1",
-        "bgBackground": "#5EFF33"
+        "bg_Category": "#D0FFC1",
+        "bg_Background": "#f3e8ff",
+      "text_Color": "#9333ea",
+      "Title_Color":"#9333ea"
       }
     
    

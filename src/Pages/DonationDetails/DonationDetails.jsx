@@ -22,7 +22,7 @@ const [card, setCard] = useState({}) ;
 
     
     return (
-        <div>
+        <div >
              <DetailsCard card = {card}></DetailsCard>
         </div>
     );

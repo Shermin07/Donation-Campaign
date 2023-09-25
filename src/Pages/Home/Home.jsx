@@ -8,7 +8,7 @@ const Home = () => {
     const cards = useLoaderData();
     return (
         <div>
-           <Banner></Banner>
+          <div className="mt-6 mb-4"> <Banner ></Banner></div>
         <Cards cards = {cards}></Cards>
         </div>
     );
