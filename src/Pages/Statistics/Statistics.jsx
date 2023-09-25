@@ -19,38 +19,41 @@ const Statistics = () => {
  const selectedDataNum = favoritieDonations.length ;
  console.log(selectedDataNum) ;
 
- 
-    
-   useEffect( () =>{
+
+ const percentage = (selectedDataNum / allDataNum) * 100;
+ const pieChartData = [
+    { name: 'Total donation', value: percentage },
+    { name: 'Your donation', value: 100 - percentage },
+  ];
 
    
-
+    
+    
    
-    
-    
-   }
-    
-    
-    ,[allData])
-    
   
     return (
       <div>
-<h1>hello</h1>
-    <PieChart  width={400} height={400} data={allDataNum} >
-        <Pie  dataKey="value"
-            isAnimationActive={false}
-             stroke='red'
-           
-           
-            >
+ <h1 className='text-center font-bold text-blue-800 text-2xl'>Donation Statistics</h1>
 
-        </Pie>
-        <Tooltip></Tooltip>
-       
-
-       
-    </PieChart>
+<ResponsiveContainer width="100%" height={400}>
+        <PieChart>
+          <Pie
+            dataKey="value"
+            data={pieChartData}
+            cx="50%"
+            cy="50%"
+            outerRadius={80}
+            fill="#8884d8"
+            
+            label
+          />
+          
+         
+          <Tooltip />
+          <Legend />
+        </PieChart>
+      </ResponsiveContainer>
+   
   
     
 
