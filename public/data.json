@@ -31,7 +31,7 @@
         "text_Color": "#666"
       },
       "Price": "$29.99",
-      "bg_Category": "#5eead4",
+      "bg_Category": " #5eead4",
       "bg_Background": " #ccfbf1",
       "text_Color": "#0d9488",
       "Title_Color": "#0d9488"
@@ -104,7 +104,7 @@
           "text_Color": "#666"
         },
         "Price": "$29.99",
-        "bgCategory": "#5eead4",
+        "bgCategory": " #5eead4",
         "bg_Background": " #ccfbf1",
         "text_Color": "#0d9488",
         "Title_Color": "#0d9488"
@@ -176,7 +176,7 @@
           "text_Color": "#666"
         },
         "Price": "$29.99",
-        "bg_Category": "#5eead4",
+        "bg_Category": " #5eead4",
         "bg_Background": " #ccfbf1",
       "text_Color": "#0d9488",
       "Title_Color": "#0d9488"
