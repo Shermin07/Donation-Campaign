@@ -40,7 +40,8 @@ const addFavoritiesArray = [];
   
   <div className="card-body">
   <div className="overlay absolute top-64 bottom-[197px] inset-0 bg-black opacity-50"></div>
- <button onClick={handleAddDonations}  style={{backgroundColor: `${bg_Background}`}} className="btn  absolute bottom-52 left-0">{`Donate ${Price}`}</button>
+ <button onClick={handleAddDonations}  
+ style={{backgroundColor:bg_Background, color:Title_Color}} className="btn  absolute bottom-52 left-0">{`Donate ${Price}`}</button>
     <h2 className="font-bold text-lg">{Title}</h2>
     <p>{Description?.text}</p>
     
