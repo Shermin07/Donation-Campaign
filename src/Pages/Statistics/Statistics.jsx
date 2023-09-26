@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import React, { PureComponent } from 'react';
-import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from 'recharts';
+import { PieChart, Pie, Legend, Tooltip,Cell, ResponsiveContainer } from 'recharts';
 
 
 import { useEffect, useState} from "react";
@@ -9,7 +9,7 @@ import { useLoaderData } from "react-router-dom";
 
 
 const Statistics = () => {
-    const [categoryData, setCategoryData] = useState([]);
+    
    
    const allData = useLoaderData();
    const allDataNum = allData.length ;
@@ -28,7 +28,7 @@ const Statistics = () => {
 
    
     
-    
+  const colors = ['#FF5733', '#4286f4'];
    
   
     return (
@@ -45,8 +45,12 @@ const Statistics = () => {
             outerRadius={80}
             fill="#8884d8"
             
-            label
-          />
+            label>
+                 {pieChartData.map((entry, index) => (
+              <Cell key={`cell-${index}`} fill={colors[index % colors.length]} />
+            ))}
+            </Pie>
+          
           
          
           <Tooltip />
