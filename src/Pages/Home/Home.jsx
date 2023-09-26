@@ -6,6 +6,7 @@ import Banner from "../../Components/Header/Banner/Banner";
 
 const Home = () => {
     const cards = useLoaderData();
+    console.log(cards);
     return (
         <div>
           <div className="mt-6 mb-4"> <Banner ></Banner></div>
