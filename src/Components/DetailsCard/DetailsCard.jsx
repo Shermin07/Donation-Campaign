@@ -34,8 +34,7 @@ const addFavoritiesArray = [];
     
     return (
         <div>
-             <div className="lg:h-[570px] mt-12  lg:w-[700px] lg:ml-36 xl:ml-72">
-             <div className="card  bg-base-100 shadow-xl relative">
+               <div className="card lg:h-[570px] mt-12  lg:w-[700px] lg:ml-36 xl:ml-72 bg-base-100 shadow-xl relative">
   <figure><img className="w-full" src={Image} alt="Basic needs" /></figure>
   
   <div className="overlay absolute top-[140px] bottom-[241px] xl:top-[300px] xl:bottom-[160px] md:top-[340px] md:bottom-[160px] lg:top-72 lg:bottom-[181px] inset-0 bg-black opacity-50"></div>
@@ -49,7 +48,6 @@ const addFavoritiesArray = [];
     
   </div>
 </div>
-             </div>
         </div>
     );
 };
