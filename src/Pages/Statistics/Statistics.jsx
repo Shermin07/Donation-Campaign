@@ -12,8 +12,8 @@ const Statistics = () => {
   const percentage = parseFloat(((selectedDataNum / allDataNum) * 100).toFixed(2));
 
   const pieChartData = [
-    { name: 'Your donation', value: percentage },
-    { name: 'Total donation', value: 100 - percentage },
+    { name: 'Total donation', value: percentage },
+    { name: 'Your donation', value: 100 - percentage },
   ];
 
   const colors = ['#FF5733', '#4286f4'];
