@@ -1,5 +1,5 @@
 
-**Certainly! Here's a revised README file explanation for your project:**
+**Certainly! Here's a  explanation for my project:**
 
 **Donation Management Application**
 **Overview**

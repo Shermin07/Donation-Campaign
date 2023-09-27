@@ -2,7 +2,7 @@
   
     {
       "Id": "1",
-      "Image": "/public/Resources/Clothing.png",
+      "Image": "./public/Resources/Clothing.png",
       "Title": "Stylish Clothing ",
       "Category_name": {
         "text": "Clothing"
@@ -21,7 +21,7 @@
 
     {
       "Id": "2",
-      "Image": "/public/Resources/Education.png",
+      "Image": "./public/Resources/Education.png",
       "Title": "Educational Books ",
       "Category_name": {
         "text": "Education"
@@ -39,7 +39,7 @@
     },
     {
       "Id": "3",
-      "Image": "/public/Resources/Health.png",
+      "Image": "./public/Resources/Health.png",
       "Title": "Healthy Lifestyle ",
       "Category_name": {
         "text": "Health"
@@ -59,7 +59,7 @@
    
     {
       "Id": "4",
-      "Image": "/public/Resources/Education.png",
+      "Image": "./public/Resources/Education.png",
       "Title": "Educational Books ",
       "Category_name": {
         "text": "Education",
@@ -77,7 +77,7 @@
     },
     {
         "Id": "5",
-        "Image": "/public/Resources/Health.png",
+        "Image": "./public/Resources/Health.png",
         "Title": "Healthy Lifestyle ",
         "Category_name": {
           "text": "Health"
@@ -95,7 +95,7 @@
       },
       {
         "Id": "6",
-        "Image": "/public/Resources/Education.png",
+        "Image": "./public/Resources/Education.png",
         "Title": "Educational Books ",
         "Category_name": {
           "text": "Education",
@@ -113,7 +113,7 @@
       },
       {
         "Id": "7",
-        "Image": "/public/Resources/Clothing.png",
+        "Image": "./public/Resources/Clothing.png",
         "Title": "Stylish Clothing ",
         "Category_name": {
           "text": "Clothing"
@@ -134,7 +134,7 @@
      
       {
         "Id": "8",
-        "Image": "/public/Resources/Food.png",
+        "Image": "./public/Resources/Food.png",
         "Title": "Delicious Cuisine ",
         "Category_name": {
           "text": "Food"
@@ -154,7 +154,7 @@
     
       {
         "Id": "9",
-        "Image": "/public/Resources/Food.png",
+        "Image": "./public/Resources/Food.png",
         "Title": "Delicious Cuisine ",
         "Category_name": {
           "text": "Food",
@@ -172,7 +172,7 @@
       },
       {
         "Id": "10",
-        "Image": "/public/Resources/Health.png",
+        "Image": "./public/Resources/Health.png",
         "Title": "Healthy Lifestyle ",
         "Category_name": {
           "text": "Health"
@@ -190,7 +190,7 @@
       },
       {
         "Id": "11",
-        "Image": "/public/Resources/Clothing.png",
+        "Image": "./public/Resources/Clothing.png",
         "Title": "Stylish Clothing ",
         "Category_name": {
           "text": "Clothing",
@@ -211,7 +211,7 @@
     
       {
         "Id": "12",
-        "Image": "/public/Resources/Food.png",
+        "Image": "./public/Resources/Food.png",
         "Title": "Delicious Cuisine ",
         "Category_name": {
           "text": "Food"
