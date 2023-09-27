@@ -34,20 +34,22 @@ const addFavoritiesArray = [];
     
     return (
         <div>
-               <div className="card lg:h-[570px] mt-12  lg:w-[700px] lg:ml-36 xl:ml-72 bg-base-100 shadow-xl relative">
-  <figure className=" "><img className="w-[400px] md:w-[710px] md:h-[500px] lg:w-[1200px] lg:h-[400px]" src={Image} alt="Basic needs" /></figure>
+             <div className="lg:h-[570px] mt-12  lg:w-[700px] lg:ml-36 xl:ml-72">
+             <div className="card  bg-base-100 shadow-xl relative">
+  <figure><img className="w-full" src={Image} alt="Basic needs" /></figure>
   
-  
+  <div className="overlay absolute top-[140px] bottom-[241px] xl:top-[300px] xl:bottom-[160px] md:top-[340px] md:bottom-[160px] lg:top-72 lg:bottom-[181px] inset-0 bg-black opacity-50"></div>
   <div className="card-body">
-  <div className="overlay absolute top-[130px] bottom-[280px] md:top-[400px] md:bottom-[180px] lg:top-72 lg:bottom-[181px] inset-0 bg-black opacity-50"></div>
+
  <button onClick={handleAddDonations}  
- style={{backgroundColor:bg_Background, color:Title_Color}} className="btn  absolute bottom-72   lg:bottom-52 lg:left-0 md:bottom-48 md:left-9">{`Donate ${Price}`}</button>
+ style={{backgroundColor:bg_Background, color:Title_Color}} className="btn  absolute bottom-[260px]   lg:bottom-52 lg:left-3 md:bottom-48 md:left-9">{`Donate ${Price}`}</button>
     <h2 className="font-bold text-lg">{Title}</h2>
     <p className="text-sm">{Description?.text}</p>
     
     
   </div>
 </div>
+             </div>
         </div>
     );
 };

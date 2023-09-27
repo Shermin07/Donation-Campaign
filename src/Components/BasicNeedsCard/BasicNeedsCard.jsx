@@ -9,7 +9,7 @@ const BasicNeedsCard = ({card}) => {
   
     
     return (
-        <div  >
+        <div >
           <Link to={`/DonationDetails/${Id}`} > <div className="card card-compact  bg-base-100 shadow-xl  ">
   <figure><img className="w-full" src={Image} alt="Basic needs" /></figure>
 
